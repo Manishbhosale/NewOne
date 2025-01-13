@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-09 10:19:02.188438",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "fetch_masters",
+  "section_break_ihkb",
+  "post_masters"
+ ],
+ "fields": [
+  {
+   "fieldname": "fetch_masters",
+   "fieldtype": "Button",
+   "label": "Fetch Masters"
+  },
+  {
+   "fieldname": "section_break_ihkb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "post_masters",
+   "fieldtype": "Button",
+   "label": "Post Masters"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-10 19:09:20.398268",
+ "modified_by": "Administrator",
+ "module": "manishsav",
+ "name": "Fetch Master 2",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

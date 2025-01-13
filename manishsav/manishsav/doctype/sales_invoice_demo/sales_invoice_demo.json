@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:SID-{###}",
+ "creation": "2024-12-09 15:42:25.019645",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "doc_entry",
+  "docnum",
+  "card_code",
+  "card_name",
+  "document_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "doc_entry",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Doc Entry"
+  },
+  {
+   "fieldname": "docnum",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "DocNum"
+  },
+  {
+   "fieldname": "card_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Card Code"
+  },
+  {
+   "fieldname": "card_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Card Name"
+  },
+  {
+   "fieldname": "document_details",
+   "fieldtype": "Table",
+   "label": "Document Details",
+   "options": "Document Lines"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-10 10:37:28.102958",
+ "modified_by": "Administrator",
+ "module": "manishsav",
+ "name": "Sales Invoice_Demo",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
